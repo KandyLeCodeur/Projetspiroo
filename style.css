@@ -1,0 +1,110 @@
+.entete{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.Spiroo{
+    padding-left: 100px;
+    font-size: 30px;
+}
+.reseaux{
+    padding-left: 18px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 3.8vmax;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+
+p{
+    color: beige;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+}
+body{
+    background-color: rgb(23, 23, 221);
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+    border-radius: 30px;
+}
+.loupe{
+    height: 15px;
+    width: 15px;
+}
+button{
+    padding: 15px;
+    border-radius:  20px;
+    background-color: orangered;
+    cursor: pointer;
+    margin: 10px;
+    color: rgb(254, 255, 255);
+}
+.paragraphe{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+h3{
+    color: orangered;
+}
+.photo1{
+    height: 150px;
+    width: 150px;
+    border-radius: 52% 48% 45% 55% / 48% 47% 53% 52% ;
+}
+.photo2{
+    height: 150px;
+    width: 150px;
+    border-radius: 73% 27% 82% 18% / 22% 49% 51% 78% ;
+}
+.photo3{
+    height: 150px;
+    width: 150px;
+    border-radius: 67% 33% 20% 80% / 49% 25% 75% 51%;
+}
+.photo4{
+    height: 150px;
+    width: 150px;
+    border-radius: 48% 52% 47% 53% / 51% 47% 53% 49%;
+}
+.photo5{
+    height: 150px;
+    width: 150px;
+    border-radius: 48% 52% 47% 53% / 51% 47% 53% 49%;
+}
+.photo6{
+    height: 300px;
+    width: 110px;
+}
+.photo7{
+    height: 150px;
+    width: 150px;
+    border-radius: 48% 52% 47% 53% / 51% 47% 53% 49%;
+}
+.photo8{
+    height: 150px;
+    width: 150px;
+    border-radius: 100% 0% 0% 100% / 51% 25% 75% 49% ;
+}
+.container .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 30px;
+}
+
+.hero{
+    background-color: black;
+    border-radius: 40px;
+}
