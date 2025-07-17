@@ -1,4 +1,4 @@
 ## Aperçu du Projet
 
-![Capture d’écran du site web](capture-ecran.png)
+![Capture d’écran du site web](Capture.png)
 
